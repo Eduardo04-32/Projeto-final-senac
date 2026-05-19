@@ -3,3 +3,29 @@
 body{
     background-repeat: no-repeat;
 }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    width: 100vw;
+}
+
+nav{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-menu nav a {
+    text-decoration: none;
+}
+
+.link{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 10px 20px;
+}
