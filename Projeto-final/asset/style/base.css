@@ -1,13 +1,16 @@
 /*cor, fonte, eetuilo*/
 
-header{
-    
-    
-}
+
 
 .container-menu nav a {
-    color: aliceblue;
+    color: white;
     font-family: "Changa One", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
+
+.link{
+    height: 15vh;
+    width: 30vw;
+}
+

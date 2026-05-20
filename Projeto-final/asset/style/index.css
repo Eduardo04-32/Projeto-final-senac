@@ -1,6 +1,16 @@
-body{
+.tela {
      background-image: url("https://wanderland.qodeinteractive.com/wp-content/uploads/2019/11/h1-rev-slide2-bckg.jpg");
-     
+     background-size: cover;
+     height: 90vh;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+}
 
-    
+.tela img {
+     width: 100%;
+     position: absolute;
+     bottom: 0;
 }
