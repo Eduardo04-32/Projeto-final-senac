@@ -67,15 +67,17 @@ main {
     align-items: center;
     gap: 30px;
     margin-bottom: 20px;
+
+
 }
 
-.info-item {
+.info-inte {
     display: flex;
     align-items: center;
     gap: 8px;
 }
 
-.info-item i {
+.info-inte i {
     color: rgb(228, 227, 227);
     font-size: 14px;
 }
@@ -86,6 +88,19 @@ main {
     text-decoration: none;
     font-size: 15px;
 
+
+}
+
+.infos {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.apresenta {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .apresenta h1 {
@@ -102,6 +117,8 @@ main {
     line-height: 1.6;
     color: #d8d8d8;
     margin-bottom: 30px;
+    text-align: center;
+
 }
 
 /* botão */
@@ -122,12 +139,16 @@ main {
 }
 
 .subTitulo {
-    height: 200vh;
+    height: 100vh;
     width: 100vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
+    display: flex;
+    gap: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
 }
 
 /**/
@@ -163,4 +184,29 @@ main {
     padding: 0 10px;
     border-radius: 10px;
     display: inline-block;
+}
+
+.painelTexto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.icon-painel {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+
+
+}
+
+.painelTexto button {
+
+    padding: 15px 30px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+
 }
