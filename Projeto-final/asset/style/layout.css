@@ -4,6 +4,16 @@ body {
     background-repeat: no-repeat;
 }
 
+.linha {
+    width: 100vw;
+    height: 4vh;
+    position: absolute;
+    top: 0;
+    border-bottom: 1px solid white;
+    z-index: 100;
+
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -37,7 +47,7 @@ nav {
 }
 
 .logo img {
-    width: 140px;
+    width: 100px;
     height: auto;
 }
 
@@ -47,25 +57,25 @@ main {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    
+
 }
 
 
 
-.infos{
+.infos {
     display: flex;
     align-items: center;
     gap: 30px;
     margin-bottom: 20px;
 }
 
-.info-item{
+.info-item {
     display: flex;
     align-items: center;
     gap: 8px;
 }
 
-.info-item i{
+.info-item i {
     color: rgb(228, 227, 227);
     font-size: 14px;
 }
@@ -78,7 +88,7 @@ main {
 
 }
 
-.apresenta h1{
+.apresenta h1 {
     color: white;
     font-size: 70px;
     font-weight: bold;
@@ -87,7 +97,7 @@ main {
 }
 
 /* texto */
-.apresenta h4{
+.apresenta h4 {
     width: 600px;
     line-height: 1.6;
     color: #d8d8d8;
@@ -95,9 +105,62 @@ main {
 }
 
 /* botão */
-.apresenta button{
+.apresenta button {
     padding: 15px 30px;
     background: transparent;
     border: 2px solid white;
     color: white;
+}
+
+.patrocinio {
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.subTitulo {
+    height: 200vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/**/
+
+
+
+.inner {
+    text-align: center;
+}
+
+.lorem {
+    display: block;
+    font-size: 20px;
+    font-style: italic;
+    color: #8b8b8b;
+    margin-bottom: 10px;
+    font-family: Georgia, serif;
+}
+
+.travel {
+    font-size: 60px;
+    color: #111;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.tips {
+    background: #e7e3d8;
+    color: #6b8f67;
+    padding: 0 10px;
+    border-radius: 10px;
+    display: inline-block;
 }
