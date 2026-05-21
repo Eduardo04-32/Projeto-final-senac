@@ -17,7 +17,8 @@
 .painel01 {
     height: 50vh;
     width: 80vw;
-    background-color: rgba(255, 0, 0, 0); /**/ 
+    background-color: rgba(255, 0, 0, 0);
+    /**/
     display: flex;
     gap: 60px;
 }
@@ -46,20 +47,38 @@
 
 .newsletter {
     background-image: url(https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/h5-bckg-img-02.jpg?id=1249);
-    height: 80vh;
+    height: 90vh;
     display: flex;
+    justify-content: center;
 
+}
+
+.newsletterPainel {
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    width: 95vw;
+    background-color: rgba(79, 0, 153, 0);
+    justify-content: space-around;
+    gap: 10px;
 }
 
 .newsimg {
     width: 50%;
-    background-color: blue;
+    background-color: rgba(0, 0, 255, 0);
 
 }
 
 .newsform {
-    width: 50%;
-    background-color: aqua;
+    width: 40%;
+    background-color: rgba(0, 255, 255, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.newsform h2 {
+    font-size: 35px;
 }
 
 .blog-posts {
