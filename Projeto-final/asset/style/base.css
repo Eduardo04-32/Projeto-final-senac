@@ -46,31 +46,38 @@
 
 
 .newsletter {
-    background-image: url(https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/h5-bckg-img-02.jpg?id=1249);
-    height: 90vh;
+    background-color: rgba(0, 0, 255, 0);
+    height: 100vh;
     display: flex;
     justify-content: center;
 
 }
 
 .newsletterPainel {
+    background-image: url("https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/h5-bckg-img-02.jpg?id=1249");
     display: flex;
-    justify-content: center;
-    height: 80vh;
-    width: 95vw;
+    align-items: center;
+    width: 100%;
     background-color: rgba(79, 0, 153, 0);
     justify-content: space-around;
-    gap: 10px;
 }
 
 .newsimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 50%;
-    background-color: rgba(0, 0, 255, 0);
+    height: 75vh;
+    background-color: rgba(5, 5, 75, 0);
 
 }
 
+.newsimg img{
+    max-width: 100%;
+}
+
 .newsform {
-    width: 40%;
+    width: 50%;
     background-color: rgba(0, 255, 255, 0);
     display: flex;
     flex-direction: column;
@@ -81,10 +88,19 @@
     font-size: 35px;
 }
 
+.newsform h4 {
+    color: rgb(145, 145, 145);
+    font-size: 20px;
+    font-family: "Smooch Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
 .blog-posts {
     display: flex;
     background-color: aqua;
-    height: 60vh;
+    height: 95vh;
     justify-content: center;
     gap: 20px;
 
@@ -102,11 +118,17 @@
 
     background-color: black;
     height: 75%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
 
 }
 
 .post-img img {
     height: 100%;
+    width: 100%;
+    object-fit: cover;
 
 
 }

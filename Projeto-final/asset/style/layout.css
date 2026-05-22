@@ -75,6 +75,7 @@ main {
     display: flex;
     align-items: center;
     gap: 8px;
+    
 }
 
 .info-inte i {
@@ -161,9 +162,16 @@ main {
 /**/
 
 
+.blog-painel{
+    width: 100vw;
+    height: 200vh;
+}
+
+
 
 .inner {
     text-align: center;
+
 }
 
 .lorem {
